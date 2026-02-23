@@ -42,10 +42,10 @@
         "link": "https://github.com/boussas/notes-app"
     },
     {
-        "title": "PHP Online Store",
+        "title": "Online Store",
         "category": "web development",
-        "image": "./assets/images/projects/php-online-store.png",
-        "link": "https://github.com/boussas/php-online-store"
+        "image": "./assets/images/projects/online-store.png",
+        "link": "https://github.com/boussas/online-store"
     },
     {
         "title": "Order Management System",
