@@ -1,0 +1,62 @@
+[
+    {
+        "title": "AI Email Reply Generator",
+        "category": "web development",
+        "image": "./assets/images/projects/ai-email-reply-generator.png",
+        "link": "https://github.com/boussas/email-reply-generator"
+    },
+    {
+        "title": "IT Asset Management",
+        "category": "web development",
+        "image": "./assets/images/projects/it-asset-management.png",
+        "link": "https://github.com/boussas/it-asset-management"
+    },
+    {
+        "title": "Weather Mobile App",
+        "category": "applications",
+        "image": "./assets/images/projects/weather-mobile-app.png",
+        "link": "https://github.com/boussas/weather-mobile-app"
+    },
+    {
+        "title": "EC2 Management Portal",
+        "category": "cloud computing",
+        "image": "./assets/images/projects/ec2-management-portal.png",
+        "link": "https://github.com/boussas/ec2-management-portal"
+    },
+    {
+        "title": "Courses Streaming Platform",
+        "category": "web development",
+        "image": "./assets/images/projects/courses-steaming-platform.png",
+        "link": "https://github.com/boussas/streaming"
+    },
+    {
+        "title": "Angular Auth Simple Template",
+        "category": "web development",
+        "image": "https://supertokens.com/covers/angular-authentication.png",
+        "link": "https://github.com/boussas/angular-auth-template"
+    },
+    {
+        "title": "Notes App",
+        "category": "web development",
+        "image": "./assets/images/projects/notes-app.png",
+        "link": "https://github.com/boussas/notes-app"
+    },
+    {
+        "title": "PHP Online Store",
+        "category": "web development",
+        "image": "./assets/images/projects/php-online-store.png",
+        "link": "https://github.com/boussas/php-online-store"
+    },
+    {
+        "title": "Order Management System",
+        "category": "applications",
+        "image": "./assets/images/projects/order-management-system.png",
+        "link": "https://github.com/boussas/GestionCommandesProjetJava"
+    },
+    {
+        "title": "Age Calculator",
+        "category": "web development",
+        "image": "./assets/images/projects/age-calculator.png",
+        "link": "https://github.com/boussas/age-calculator"
+    }
+]

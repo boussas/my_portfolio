@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Boussas</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!--
+    - devicon link
+  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Mohamed Boussas" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mohamed Boussas">Mohamed Boussas</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/boussas" class="contact-link" target="_blank">/boussas</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://linkedin.com/in/mohamed-boussas/" class="contact-link"
+                target="_blank">/mohamed-boussas</a>
+            </div>
+
+          </li>
+
+
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Casablanca, MA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <!--   <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/mohamed-boussas/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/boussas" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+-->
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li>
+
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Software Engineer, studied at the Mohammed VI International Academy of Civil Aviation (AIAC), passionate
+            about software development and cloud computing, with a particular interest in full-stack development using
+            Java, Spring Boot, and Angular.
+          </p>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mohammed VI International Academy of Civil Aviation</h4>
+
+              <span>September 2023 — July 2026</span>
+
+              <p class="timeline-text">
+                Engineering Degree in Software Engineering (Final-year student).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Preparatory Classes for the Grandes Écoles</h4>
+
+              <span>September 2021 — June 2023</span>
+
+              <p class="timeline-text">
+                Physics and Engineering Sciences.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ibn Rochd High School</h4>
+
+              <span>September 2020 — June 2021</span>
+
+              <p class="timeline-text">
+                Scientific Baccalaureate, Physics Option — Graduated with Highest Honors.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="terminal-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Skills</h3>
+          </div>
+
+          <div class="skills-content">
+
+            <!-- Frontend -->
+            <div class="skill-category">
+              <h4 class="h4">Frontend</h4>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <i class="devicon-angularjs-plain colored"></i>
+                  <span>Angular</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-react-original colored"></i>
+                  <span>React</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-html5-plain colored"></i>
+                  <span>HTML</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-css3-plain colored"></i>
+                  <span>CSS</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-bootstrap-plain colored"></i>
+                  <span>Bootstrap</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-tailwindcss-original colored"></i>
+                  <span>Tailwind CSS</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="skill-category">
+              <h4 class="h4">Backend</h4>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <i class="devicon-spring-original colored"></i>
+                  <span>Spring Boot</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-nodejs-plain colored"></i>
+                  <span>Node.js</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-express-original"></i>
+                  <span>Express</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Database -->
+            <div class="skill-category">
+              <h4 class="h4">Database</h4>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <i class="devicon-postgresql-plain colored"></i>
+                  <span>PostgreSQL</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-mysql-original colored"></i>
+                  <span>MySQL</span>
+                </div>
+
+                <div class="skill-card">
+                  <i class="devicon-mongodb-plain colored"></i>
+                  <span>MongoDB</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Language -->
+            <div class="skill-category">
+              <h4 class="h4">Programming Languages</h4>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <i class="devicon-java-plain colored"></i>
+                  <span>Java</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-python-plain colored"></i>
+                  <span>Python</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-javascript-plain colored"></i>
+                  <span>JavaScript</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-typescript-plain colored"></i>
+                  <span>TypeScript</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-c-plain colored"></i>
+                  <span>C</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-cplusplus-plain colored"></i>
+                  <span>C++</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill-category">
+              <h4 class="h4">Tools</h4>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <i class="devicon-git-plain colored"></i>
+                  <span>Git</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-github-original"></i>
+                  <span>GitHub</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                  <span>AWS</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-docker-plain colored"></i>
+                  <span>Docker</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-postman-plain colored"></i>
+                  <span>Postman</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-bash-plain colored" style="color: white;"></i>
+                  <span>Bash</span>
+                </div>
+                <div class="skill-card">
+                  <i class="devicon-linux-plain"></i>
+                  <span>Linux</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+        <!--
+          - service
+        -->
+
+
+
+        <!--
+          - testimonials
+        -->
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="experience">
+
+        <header>
+          <h2 class="h2 article-title">Experience</h2>
+        </header>
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineering Intern — MyTower</h4>
+
+              <span>July 2025 — August 2025</span>
+
+              <div class="timeline-text">
+                <ul class="timeline-list-items">
+                  <li>Developed a keyboard shortcut management module on the TMS platform allowing customizable
+                    shortcuts.</li>
+                  <li>Developed a web application for IT resource management and equipment tracking.</li>
+                  <li><strong>Technologies used:</strong> Angular, Spring Boot, PostgreSQL, Docker, Keycloak</li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IT Department Intern — Riaya Industries</h4>
+
+              <span>July 2024</span>
+
+              <div class="timeline-text">
+                <ul class="timeline-list-items">
+                  <li>Implemented a monitoring solution for servers, network equipment, and services.</li>
+                  <li>Configured email alerts to detect incidents and reduce response time.</li>
+                  <li><strong>Technologies used:</strong> Linux, Zabbix, MySQL, SMTP</li>
+                </ul>
+              </div>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #CERTIFICATIONS
+      -->
+
+      <article class="certifications" data-page="certifications">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="certificates">
+          <ul class="certificates-list" data-certificates-list>
+            <!-- Dynamic certificates will be loaded here -->
+          </ul>
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Cloud computing</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Cloud computing</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list" data-projects-list>
+            <!-- Projects will be loaded dynamically from projects.json -->
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+
+
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form id="contact-form" name="contact-form">
+
+            <div class="input-wrapper">
+              <input type="text" name="from_name" class="form-input" placeholder="Full name" required data-form-input
+                id="name">
+
+              <input type="email" name="reply_to" class="form-input" placeholder="Email address" required
+                data-form-input id="email">
+            </div>
+
+            <input type="hidden" name="bot-field" id="bot-field">
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input
+              id="message"></textarea>
+
+            <button class="form-btn" style="cursor: pointer;" type="submit" disabled data-form-btn>
+              <ion-icon style="color:hsl(208, 100%, 51%);" name="paper-plane"></ion-icon>
+              <span style="color:hsl(208, 100%, 51%);">Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - certificate modal (outside main so it's always visible)
+  -->
+  <div class="cert-modal-overlay" data-cert-modal-overlay>
+    <div class="cert-modal-content">
+      <button class="cert-modal-close" data-cert-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <img src="" alt="" data-cert-modal-img>
+    </div>
+  </div>
+
+  <!--
+    - toast notification container
+  -->
+  <div class="toast-container" id="toast-container"></div>
+
+
+
+
+
+
+
+
+  <!--
+    - EmailJS SDK
+  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
